@@ -1,0 +1,39 @@
+/* Estilos para el centro de la pagina*/
+
+.question-body {
+    height: 60vh;
+    margin:auto;
+    padding: 100px;
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+
+.input{
+    background-color: var(--grey-color);
+    width: 90%;
+    height: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:30px;
+    border-radius: 30px;
+}
+.input input {
+    width: 80%;
+    height: 70px;
+    border: solid var(--white) 1.5px;
+    background-color: var(--grey-color);
+    border-radius: 10px;
+    color: var(--white);
+    padding-left:10px;
+
+}
+.input input::placeholder {
+    font-family: var(--phrase-font);
+    text-align: start;
+    color: var(--white);
+    border-radius: 30px;
+}
