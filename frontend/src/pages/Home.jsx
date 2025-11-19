@@ -1,6 +1,6 @@
 import Aside from "../components/aside";
 import "../styles/home.css"
-import { darkMode, userPfp, paperPlane } from "../assets/icons/home/exportIcons";
+import { darkMode, userPfp, paperPlane, toolsKit } from "../assets/icons/home/exportIcons";
 import { useState } from "react";
 
 export default function Home() {
@@ -23,7 +23,13 @@ export default function Home() {
           <h1>Hola, Nombre de usuario</h1>
           <form className="input">
             <input placeholder="Pregunta a DeepCrawler"></input>
-            <button><img src={paperPlane} alt="paperplane"/></button>
+            <div className="tools-kit">
+              <button className="button-with-text">
+                <img src={toolsKit} alt="Herramientas"/>
+                <p>Ver mas herramientas</p> 
+              </button>
+              <button><img src={paperPlane} alt="Enviar mensaje"/></button>
+            </div>
           </form>
         </div>
       </main>
