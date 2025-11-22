@@ -1,4 +1,4 @@
-import { showMore, chat, login, register, checkActivity, settings } from "/src/assets/icons/aside/exportIcons";
+import { showMore, chat, login, checkActivity, settings } from "/src/assets/icons/aside/exportIcons";
 
 
 export default function Aside({isOpen, toggleBar}) {
@@ -17,20 +17,20 @@ export default function Aside({isOpen, toggleBar}) {
                 <div className="intro-buttons">
                     <button onClick={toggleBar}> <img src={showMore} alt="Agrandar la barra"/></button>
                 </div>
+            </div>
+            <div className="intro-buttons">
+                {/*Se muestra unicamente si el usuario está autentificado*/}
                 <div className="intro-label">
                     <button><img src={chat} alt="Historial de mensajes" /></button>
                     <p className={`intro-text ${isOpen ? "abierta" : "cerrada"}`}>Historial de mensajes</p>
                 </div>
-            </div>
-            <div className="intro-buttons">
+                {/* En caso de que el usuario no este autentificado, sale el icono del auth*/}
                 <div className="intro-label">
-                    <a><button><img src={login} /></button></a>
-                    <p className={`intro-text ${isOpen ? "abierta" : "cerrada"}`}>Iniciar Sesión</p>
+                    <a href="/auth"><button><img src={login} /></button></a>
+                    <p className={`intro-text ${isOpen ? "abierta" : "cerrada"}`}>Autentificate</p>
                 </div>
-                <div className="intro-label">
-                    <a><button><img src={register} /></button></a>
-                    <p className={`intro-text ${isOpen ? "abierta" : "cerrada"}`}>Registrarte</p>
-                </div>
+                {/* En caso de que el usuario  este autentificado, sale la foto de perfil del usuario */}
+                {/*Se muestra unicamente si el usuario está autentificado*/}
                 <div className="intro-label">
                     <button><img src={checkActivity} /></button>
                     <p className={`intro-text ${isOpen ? "abierta" : "cerrada"}`}>Ver actividad reciente</p>

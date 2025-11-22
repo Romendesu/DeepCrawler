@@ -1,0 +1,108 @@
+/* Titulo */
+.header-auth {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    width: 97%;
+}
+.header-auth h1{
+    margin: 30px 20px;
+    font-weight: 400;
+    font-size: large;
+    text-align: center;
+    color: var(--white);
+}
+/* Cuerpo de la autentificación*/
+.auth-main {
+    background-color: var(--background-color);
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-size: auto;
+    height: 100vh;
+}
+.main {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 600px;
+    height: 800px;
+    border: solid 1.5px var(--grey-color);
+    border-radius: 30px;
+    background-color: var(--grey-color);
+    transform: translate(-50%, -50%);
+    box-shadow:0 .5px 12px var(--white);
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 30px;
+}
+button{
+    border: solid 1.5px var(--background-color);
+    background-color: var(--background-color);
+    color: var(--white);
+    width: 200px;
+    height: 50px;
+    border-radius: 30px;
+    transition: ease .15s;
+    
+}
+button:hover{
+    background-color: var(--soft-border);
+    border-color: var(--soft-border);
+    color:var(--background-color)
+}
+.main h1 , .subindex{
+    color: var(--white);
+}
+/*Estilos para el formulario*/
+.auth-body{
+    transition: all ease .4s;
+    transform: translateX(0);
+    opacity: 1;
+}
+.auth-body.login {
+    opacity: 1;
+    transition: ease .4s;
+}
+
+/* Estado cuando muestra signup */
+.auth-body.signup {
+    transition: ease .4s;
+    opacity: 1;
+}
+.auth-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 60vh;
+    gap:30px;
+}
+.auth-form .text-field {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    color:white;
+    gap:10px;
+}
+.auth-form .text-field input {
+    width: 300px;
+    height: 50px;
+    border: solid 1.5px var(--background-color);
+    background-color:  var(--background-color);
+    border-radius: 40px;
+    color: var(--white);
+    padding-left: 20px;
+    outline: none;    
+    transition: ease .15s;
+}
+.auth-form .text-field input:hover,
+.auth-form .text-field input:focus {
+    box-shadow:0 .5px 12px var(--white);
+}
+.auth-form.login a{
+    color:rgb(76, 76, 109);
+}

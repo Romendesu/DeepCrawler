@@ -1,6 +1,6 @@
 import Aside from "../components/aside";
 import "../styles/home.css"
-import { darkMode, userPfp, paperPlane, toolsKit } from "../assets/icons/home/exportIcons";
+import { paperPlane, toolsKit } from "../assets/icons/home/exportIcons";
 import { useState } from "react";
 
 export default function Home() {
@@ -14,10 +14,6 @@ export default function Home() {
       <main className={`main-content ${isOpen ? "aside-abierta" : "aside-cerrada"}`}>
         <div className="header">
           <h1> DeepCrawler </h1>
-          <div className="header-button-list">
-            <button><img src={darkMode} alt="Modo oscuro a modo claro"/></button>
-            <button><img src={userPfp} alt="Foto de perfil del usuario"/></button>
-          </div>
         </div>
         <div className="question-body">
           <h1>Hola, Nombre de usuario</h1>
@@ -28,7 +24,10 @@ export default function Home() {
                 <img src={toolsKit} alt="Herramientas"/>
                 <p>Ver mas herramientas</p> 
               </button>
-              <button><img src={paperPlane} alt="Enviar mensaje"/></button>
+              {/* Deberia abrirse un desplegable por aqui con todos los modelos de IA*/}
+              <button className="button-without-text">
+                <img src={paperPlane} alt="Enviar mensaje"/>
+              </button>
             </div>
           </form>
         </div>

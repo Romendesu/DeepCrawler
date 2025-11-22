@@ -24,42 +24,60 @@
     box-shadow:0 .5px 12px var(--white);
 }
 .input input {
-  background-color: var(--grey-color);
-  width: 90%;
-  height: 50px;
-  color: var(--white);
-  border-style:solid;
-  border-color:var(--grey-color);
+    background-color: var(--grey-color);
+    width: 93%;
+    height: 50px;
+    color: var(--white);
+    border-style:solid;
+    border-color:var(--grey-color);
+    outline: none;
 }
+
+
 /* Campo de botones*/
 .tools-kit{
-  display: flex;
-  justify-content: space-between;
-  align-items:center;
-  flex-direction: row;
-  width: 97%;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    flex-direction: row;
+    width: 97%;
 }
 /* Botones del tools-kit*/
 .tools-kit .button-with-text {
-  display:flex;
-  width: 200px;
-  justify-content: center;
-  align-items:center;
-  flex-direction:row;
-  gap:10px;
-  border-style: solid;
-  padding: 5px;
-  border-radius: 50px;
+    display:flex;
+    width: 200px;
+    justify-content: center;
+    align-items:center;
+    flex-direction:row;
+    gap:10px;
+    border-style: solid;
+    padding: 5px;
+    border-radius: 50px;
 }
 .tools-kit .button-with-text:hover {
-  background-color: #505050;
-  border-color: #505050;
+    background-color: #505050;
+    border-color: #505050;
 }
-.button-with-text img {
-  width:25px;
-  height:25px;
+.button-with-text img,
+.button-without-text img{
+    width:25px;
+    height:25px;
 }
 .button-with-text p{
-  font-size: 10px;
-  color: var(--white);
+    font-size: 13px;
+    color: var(--white);
 }
+
+.tools-kit .button-without-text{
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border:solid var(--background-color);
+}
+.tools-kit .button-without-text:hover{
+  border-color: #505050;
+  background-color: #505050;
+}
+
