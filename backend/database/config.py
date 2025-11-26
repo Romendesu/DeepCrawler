@@ -1,13 +1,11 @@
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker, declarative_base
 
-DATABASE_URL = "sqlite:///./usuarios.db"
+DATABASE_URL = "sqlite:///app.db"  # Cámbialo a PostgreSQL / MySQL si necesitas
 
-# Motor de la base de datos
-engine = create_engine(DATABASE_URL, connect_args = {"check_same_thread": False})
+engine = create_engine(DATABASE_URL, echo=False)
 
-# Crear sesion de la base de datos
-SessionLocal = sessionmaker(bind=engine, autoflush=False)
+SessionLocal = sessionmaker(bind=engine, autoflush=False, autocommit=False)
 
-# Base para los modelos
 Base = declarative_base()
+

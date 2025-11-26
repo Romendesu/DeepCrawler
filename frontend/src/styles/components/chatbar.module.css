@@ -1,0 +1,18 @@
+/* ChatBar.module.css */
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items:center;
+  flex-direction: row;
+  width: 60%;
+  border: solid var(--white) 1.5px;
+  border-radius: 25px;
+  padding:5px 30px;
+  transition: ease-in-out 0.1s;
+  height: 90px;
+}
+
+.container:hover{
+  transform: translateY(-5px);
+  box-shadow:0 .5px 12px var(--white);
+}

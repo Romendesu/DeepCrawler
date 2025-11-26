@@ -21,8 +21,8 @@ export default function Aside({isOpen, toggleBar}) {
             <div className="intro-buttons">
                 {/*Se muestra unicamente si el usuario está autentificado*/}
                 <div className="intro-label">
-                    <button><img src={chat} alt="Historial de mensajes" /></button>
-                    <p className={`intro-text ${isOpen ? "abierta" : "cerrada"}`}>Historial de mensajes</p>
+                    <a href="/"><button><img src={chat} alt="Iniciar conversación" /></button></a>
+                    <p className={`intro-text ${isOpen ? "abierta" : "cerrada"}`}>Iniciar nueva conversación</p>
                 </div>
                 {/* En caso de que el usuario no este autentificado, sale el icono del auth*/}
                 <div className="intro-label">
@@ -32,7 +32,7 @@ export default function Aside({isOpen, toggleBar}) {
                 {/* En caso de que el usuario  este autentificado, sale la foto de perfil del usuario */}
                 {/*Se muestra unicamente si el usuario está autentificado*/}
                 <div className="intro-label">
-                    <button><img src={checkActivity} /></button>
+                    <a href="/record"><button><img src={checkActivity} /></button></a>
                     <p className={`intro-text ${isOpen ? "abierta" : "cerrada"}`}>Ver actividad reciente</p>
                 </div>
                 <div className="intro-label">
