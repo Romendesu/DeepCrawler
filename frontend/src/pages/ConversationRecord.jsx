@@ -15,6 +15,8 @@ export default function ConversationRecord () {
           <h1> DeepCrawler </h1>
         </div>
         <ChatBar context="Titulo" lastChat="lastChat" creationDate="2/11/2025"/>
+        <ChatBar context="TituloTituloTituloTituloTituloTituloTituloTituloTituloTituloTituloTituloTituloTituloTituloTituloTituloTituloTituloTituloTituloTitulo" lastChat="lastChalastChatlastChatlastChatlastChatlastChatlastChatlastChatlastChatlastChatlastChatlastChatlastChatlastChatlastChatlastChatlastChatlastChatlastChatlastChatlastChatt" creationDate="2/11/2025"/>
+
       </main>
     </>
   )

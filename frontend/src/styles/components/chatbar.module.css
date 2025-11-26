@@ -1,18 +1,49 @@
 /* ChatBar.module.css */
+
 .container {
   display: flex;
   justify-content: space-between;
-  align-items:center;
-  flex-direction: row;
-  width: 60%;
+  align-items: center;
   border: solid var(--white) 1.5px;
-  border-radius: 25px;
-  padding:5px 30px;
-  transition: ease-in-out 0.1s;
-  height: 90px;
+  border-radius: 30px;
+  background-color: var(--grey-color);
+  gap: 40px;
+  width: 90%;
+  padding: 0px 50px;
+  margin: 20px 0px;
+  height: 85px;
+  transition: ease-in-out .15s;
 }
 
 .container:hover{
   transform: translateY(-5px);
   box-shadow:0 .5px 12px var(--white);
+}
+
+.textcontainer{
+  width: 90%;
+  max-height: auto;
+  height: 80px;
+  border:solid 1.5px var(--grey-color);
+  padding: 0px 20px;
+  border-radius: 15px;
+  background-color: var(--grey-color);
+}
+.textcontainer h1, .textcontainer p {
+  width: 1200px;           
+  white-space: nowrap;     
+  overflow: hidden;        
+  text-overflow: ellipsis; 
+}
+.textcontainer h1 {
+  font-size: larger;
+  font-weight: 700;
+}
+.textcontainer p {
+  font-size: medium;
+}
+
+.img  {
+  width: 30px;
+  height: 30px;
 }

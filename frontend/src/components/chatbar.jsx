@@ -1,11 +1,11 @@
-import {chat} from "/src/assets/icons/aside/exportIcons"
+import {Chat} from "/src/assets/icons/chatBar/exportIcons"
 import styles from "/src/styles/components/chatbar.module.css"
 
 export default function ChatBar ({context, lastChat,creationDate}) {
   return (
     <div className = {styles.container}>
-      <img src={chat} alt="Historial de mensajes" />
-      <div className="text-container">
+      <img src={Chat} className={styles.img} alt="Historial de mensajes" />
+      <div className={styles.textcontainer}>
         <h1> {context} </h1>
         <p> {lastChat} </p>
       </div>
