@@ -6,7 +6,7 @@ DeepCrawler es un webcrawler que emplea agentes de IA para buscar información p
 
 Es una aplicación web que cuenta con las siguientes tecnologías:
 
-  1. Front-end: React + Vue, empleando CSS Vanilla
+  1. Front-end: React + Vite, empleando CSS Vanilla
   2. Back-end: Express + SQLite3, para el manejo de peticiones
 
 ## 2. Requerimientos
