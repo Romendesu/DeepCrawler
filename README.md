@@ -4,6 +4,11 @@
 
 DeepCrawler es un webcrawler que emplea agentes de IA para buscar información por internet. Su interfaz es muy similar a las que proporcionan Gemini, ChatGPT y otros asistentes conversacionales, permitiendo a los usuarios interactuar de manera sencilla y eficiente con la información que buscan.
 
+Es una aplicación web que cuenta con las siguientes tecnologías:
+
+  1. Front-end: React + Vue, empleando CSS Vanilla
+  2. Back-end: Express + SQLite3, para el manejo de peticiones
+
 ## 2. Requerimientos
 
 Para ejecutar DeepCrawler, necesitas tener instalados:
