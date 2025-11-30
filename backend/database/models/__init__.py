@@ -1,3 +1,3 @@
-from .user_models import User
+from .user_models import UserModel
 from .chat_models import Chat, Message
 

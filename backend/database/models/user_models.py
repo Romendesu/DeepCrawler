@@ -1,6 +1,8 @@
 # Dependencias del proyecto
-from sqlalchemy import Column, Integer, String, Float, ForeignKey, DateTime,
+from sqlalchemy import Column, Integer, String, Float, ForeignKey, DateTime
 from sqlalchemy.orm import relationship, declarative_base
+
+Base = declarative_base()
 
 class UserModel(Base):
     # Tabla de usuarios
@@ -11,5 +13,5 @@ class UserModel(Base):
     name = Column(String, nullable = False)
     email = Column(String, nullable = False, unique = True)
     password =Column(String, nullable = False)
-    profile_picture = Column(String, nullable = False)
+    profile_picture = Column(Text, nullable = False)            # Conversion a Base64
     
