@@ -1,0 +1,19 @@
+requests
+
+# Opcionales (mejor parsing y utilidades):
+# beautifulsoup4
+requests
+beautifulsoup4
+transformers
+torch
+spacy
+# Optional: add a light summarizer like 'sumy' if desired
+# sumy
+requests
+beautifulsoup4
+
+# Opcionales:
+# transformers
+# torch
+# spacy
+# sumy

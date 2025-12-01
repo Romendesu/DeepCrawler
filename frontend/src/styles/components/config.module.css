@@ -1,0 +1,27 @@
+.mainContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: solid var(--light-grey) 2px;
+    width: 700px;
+    margin: auto;
+    border-radius: 40px;
+    padding:20px;
+}
+
+.changeForm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+    gap:20px;
+}
+
+.changeForm input{
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    border: solid var(--light-grey);
+    background-color: var(--grey);
+}

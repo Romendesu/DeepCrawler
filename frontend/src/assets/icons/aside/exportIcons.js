@@ -4,5 +4,5 @@ import login from "./login.svg";
 import register from "./register.svg";
 import settings from "./settings.svg";
 import checkActivity from "./checkActivity.svg";
-
-export { showMore, chat, login, register, settings, checkActivity};
+import logoutIcon from "./logout.svg"
+export { showMore, chat, login, register, settings, checkActivity, logoutIcon};

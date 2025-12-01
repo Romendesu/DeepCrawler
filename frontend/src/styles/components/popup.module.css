@@ -1,0 +1,37 @@
+.container {
+    position: absolute;
+    width: 300px;
+    height: 80px;
+    top: 2%;
+    right: 1%;
+    border: solid 1.7px var(--light-grey);
+    border-radius: 30px;
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    color: var(--white);
+
+    opacity: 0;
+    transform: translateY(-20px);
+    transition: opacity 0.3s ease, transform 0.3s ease;
+}
+.container h1 {
+    font-size: large;    
+}
+.container p{
+    font-size: medium;
+}
+.container.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.active {
+    box-shadow: 0 0.5px 12px #75d38a;
+}
+
+.error {
+    box-shadow: 0 0.5px 12px #ff4646;
+}
