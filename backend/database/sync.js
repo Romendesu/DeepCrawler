@@ -1,5 +1,7 @@
 const sequelize = require('./db');
 const User = require('./models/Users');
+const Chat = require('./models/Chat');
+
 
 async function syncDB() {
   try {
