@@ -1,0 +1,147 @@
+{
+  "e295177dec15235ff9d07bf32637fbd3": {
+    "query": "¿Qué es Python?",
+    "timestamp": "2025-12-02T14:48:24.921662",
+    "file": "C:\\Users\\rodri\\Desktop\\DeepCrawler-main\\crawler\\data\\cache\\e295177dec15235ff9d07bf32637fbd3.json"
+  },
+  "2d654cfd35f140e21dcd25e1aedf4c21": {
+    "query": "¿Cómo funciona machine learning?",
+    "timestamp": "2025-12-02T14:48:29.079257",
+    "file": "C:\\Users\\rodri\\Desktop\\DeepCrawler-main\\crawler\\data\\cache\\2d654cfd35f140e21dcd25e1aedf4c21.json"
+  },
+  "c68542d5241db2c51bba9f701298bfa9": {
+    "query": "Diferencias entre Python y JavaScript",
+    "timestamp": "2025-12-02T14:48:30.478402",
+    "file": "C:\\Users\\rodri\\Desktop\\DeepCrawler-main\\crawler\\data\\cache\\c68542d5241db2c51bba9f701298bfa9.json"
+  },
+  "caf3c676f3f2ff8abd98abe2086e5bf3": {
+    "query": "¿Por qué es importante la inteligencia artificial?",
+    "timestamp": "2025-12-02T14:48:31.231619",
+    "file": "C:\\Users\\rodri\\Desktop\\DeepCrawler-main\\crawler\\data\\cache\\caf3c676f3f2ff8abd98abe2086e5bf3.json"
+  },
+  "5fe9ac71b4d3003fddbe4662ced9d955": {
+    "query": "quien es pedro sanchez?",
+    "timestamp": "2025-12-02T14:48:42.129652",
+    "file": "C:\\Users\\rodri\\Desktop\\DeepCrawler-main\\crawler\\data\\cache\\5fe9ac71b4d3003fddbe4662ced9d955.json"
+  },
+  "a2e4d4b5e60cefa844cea67cd1ade2a0": {
+    "query": "Hola??",
+    "timestamp": "2025-12-02T14:48:59.600313",
+    "file": "C:\\Users\\rodri\\Desktop\\DeepCrawler-main\\crawler\\data\\cache\\a2e4d4b5e60cefa844cea67cd1ade2a0.json"
+  },
+  "0676dc4338ec810c744d15b73386306f": {
+    "query": "Hola!",
+    "timestamp": "2025-12-02T14:50:29.312519",
+    "file": "C:\\Users\\rodri\\Desktop\\DeepCrawler-main\\crawler\\data\\cache\\0676dc4338ec810c744d15b73386306f.json"
+  },
+  "f688ae26e9cfa3ba6235477831d5122e": {
+    "query": "Hola",
+    "timestamp": "2025-12-02T15:38:01.455534",
+    "file": "C:\\Users\\rodri\\Desktop\\DeepCrawler-main\\crawler\\data\\cache\\f688ae26e9cfa3ba6235477831d5122e.json"
+  },
+  "f1290186a5d0b1ceab27f4e77c0c5d68": {
+    "query": "w",
+    "timestamp": "2025-12-02T15:41:23.872785",
+    "file": "C:\\Users\\rodri\\Desktop\\DeepCrawler-main\\crawler\\data\\cache\\f1290186a5d0b1ceab27f4e77c0c5d68.json"
+  },
+  "8cfbcfcd27c86a9ca3648bb0386c654b": {
+    "query": "que",
+    "timestamp": "2025-12-02T15:41:27.476477",
+    "file": "C:\\Users\\rodri\\Desktop\\DeepCrawler-main\\crawler\\data\\cache\\8cfbcfcd27c86a9ca3648bb0386c654b.json"
+  },
+  "9cdfb439c7876e703e307864c9167a15": {
+    "query": "lol",
+    "timestamp": "2025-12-02T15:41:33.393473",
+    "file": "C:\\Users\\rodri\\Desktop\\DeepCrawler-main\\crawler\\data\\cache\\9cdfb439c7876e703e307864c9167a15.json"
+  },
+  "4d186321c1a7f0f354b297e8914ab240": {
+    "query": "hola",
+    "timestamp": "2025-12-02T15:42:54.078490",
+    "file": "C:\\Users\\rodri\\Desktop\\DeepCrawler-main\\crawler\\data\\cache\\4d186321c1a7f0f354b297e8914ab240.json"
+  },
+  "df483402b9bfeb234717a32c6e86280e": {
+    "query": "wwwww",
+    "timestamp": "2025-12-02T15:47:47.378479",
+    "file": "C:\\Users\\rodri\\Desktop\\DeepCrawler-main\\crawler\\data\\cache\\df483402b9bfeb234717a32c6e86280e.json"
+  },
+  "4eae35f1b35977a00ebd8086c259d4c9": {
+    "query": "www",
+    "timestamp": "2025-12-02T15:54:08.623118",
+    "file": "C:\\Users\\rodri\\Desktop\\DeepCrawler-main\\crawler\\data\\cache\\4eae35f1b35977a00ebd8086c259d4c9.json"
+  },
+  "cbd592aef9f093482a46de66840e6a48": {
+    "query": "Que es chatgpt",
+    "timestamp": "2025-12-02T17:18:33.565278",
+    "file": "C:\\Users\\rodri\\Desktop\\DeepCrawler-main\\crawler\\data\\cache\\cbd592aef9f093482a46de66840e6a48.json"
+  },
+  "863ea47d4d91a02973f42653a7972c48": {
+    "query": "que es python",
+    "timestamp": "2025-12-02T17:18:50.373576",
+    "file": "C:\\Users\\rodri\\Desktop\\DeepCrawler-main\\crawler\\data\\cache\\863ea47d4d91a02973f42653a7972c48.json"
+  },
+  "08c0a92defa30e21b33e8be5a361d2c1": {
+    "query": "que es java",
+    "timestamp": "2025-12-02T17:18:57.269557",
+    "file": "C:\\Users\\rodri\\Desktop\\DeepCrawler-main\\crawler\\data\\cache\\08c0a92defa30e21b33e8be5a361d2c1.json"
+  },
+  "94227aa693a425249147f9395c7cd0fb": {
+    "query": "que es C++",
+    "timestamp": "2025-12-02T17:19:03.459132",
+    "file": "C:\\Users\\rodri\\Desktop\\DeepCrawler-main\\crawler\\data\\cache\\94227aa693a425249147f9395c7cd0fb.json"
+  },
+  "41c20e66d50133a31c582c90fc8de6a3": {
+    "query": "que es el lenguaje C",
+    "timestamp": "2025-12-02T17:19:14.367285",
+    "file": "C:\\Users\\rodri\\Desktop\\DeepCrawler-main\\crawler\\data\\cache\\41c20e66d50133a31c582c90fc8de6a3.json"
+  },
+  "202302c1bf617ed4051f7688e3149618": {
+    "query": "Que es python",
+    "timestamp": "2025-12-02T17:23:42.326474",
+    "file": "C:\\Users\\rodri\\Desktop\\DeepCrawler-main\\crawler\\data\\cache\\202302c1bf617ed4051f7688e3149618.json"
+  },
+  "8d7c6fbb7aaeb08bd4cce466a4cd1015": {
+    "query": "que tal",
+    "timestamp": "2025-12-02T17:25:19.593358",
+    "file": "C:\\Users\\rodri\\Desktop\\DeepCrawler-main\\crawler\\data\\cache\\8d7c6fbb7aaeb08bd4cce466a4cd1015.json"
+  },
+  "9271d6eecedd55fcfa6143a33029d496": {
+    "query": "nigga",
+    "timestamp": "2025-12-02T17:30:40.391264",
+    "file": "C:\\Users\\rodri\\Desktop\\DeepCrawler-main\\crawler\\data\\cache\\9271d6eecedd55fcfa6143a33029d496.json"
+  },
+  "4054496161b96af7593ec8b18f1f13fc": {
+    "query": "De donde viene la palabra \"peru es clave\"",
+    "timestamp": "2025-12-02T17:33:41.545014",
+    "file": "C:\\Users\\rodri\\Desktop\\DeepCrawler-main\\crawler\\data\\cache\\4054496161b96af7593ec8b18f1f13fc.json"
+  },
+  "07d6b0dacc2d017c9c6a09bf01219310": {
+    "query": "Quien es manolo escobar",
+    "timestamp": "2025-12-02T18:13:20.597614",
+    "file": "C:\\Users\\rodri\\Desktop\\DeepCrawler-main\\crawler\\data\\cache\\07d6b0dacc2d017c9c6a09bf01219310.json"
+  },
+  "4c3b0a49ccb2cf9b63f0457d9e3e0596": {
+    "query": "Agartha",
+    "timestamp": "2025-12-02T18:27:47.771966",
+    "file": "C:\\Users\\rodri\\Desktop\\DeepCrawler-main\\crawler\\data\\cache\\4c3b0a49ccb2cf9b63f0457d9e3e0596.json"
+  },
+  "f467bc2addfa0c98c39d78a6a5883f2d": {
+    "query": "terraplanismo",
+    "timestamp": "2025-12-02T18:28:01.527659",
+    "file": "C:\\Users\\rodri\\Desktop\\DeepCrawler-main\\crawler\\data\\cache\\f467bc2addfa0c98c39d78a6a5883f2d.json"
+  },
+  "c60b650ec8ff448fa65afbe659a89054": {
+    "query": "quien es el presidente del gobierno",
+    "timestamp": "2025-12-02T18:28:14.166214",
+    "file": "C:\\Users\\rodri\\Desktop\\DeepCrawler-main\\crawler\\data\\cache\\c60b650ec8ff448fa65afbe659a89054.json"
+  },
+  "90cca8f9b0025a556c210568263171ef": {
+    "query": "quien es el presidente del gobierno de españa",
+    "timestamp": "2025-12-02T18:28:24.501565",
+    "file": "C:\\Users\\rodri\\Desktop\\DeepCrawler-main\\crawler\\data\\cache\\90cca8f9b0025a556c210568263171ef.json"
+  },
+  "46c49ec9b4b5958a922ebdde4883fd47": {
+    "query": "Quien es roscam",
+    "timestamp": "2025-12-02T18:33:04.744050",
+    "file": "C:\\Users\\rodri\\Desktop\\DeepCrawler-main\\crawler\\data\\cache\\46c49ec9b4b5958a922ebdde4883fd47.json"
+  }
+}

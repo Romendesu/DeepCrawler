@@ -1,0 +1,26 @@
+{
+  "fragments": [
+    "El aprendizaje automático es una rama de la IA que permite crear sistemas que aprenden de los datos.",
+    "Los algoritmos de aprendizaje supervisado requieren datos etiquetados para entrenar.",
+    "El aprendizaje no supervisado busca encontrar patrones en datos sin etiquetar.",
+    "La validación cruzada evalúa el rendimiento de un modelo usando diferentes subconjuntos.",
+    "El sobreajuste ocurre cuando un modelo aprende detalles específicos en lugar de patrones generales.",
+    "El aprendizaje automático es una rama de la IA que permite crear sistemas que aprenden de los datos.",
+    "Los algoritmos de aprendizaje supervisado requieren datos etiquetados para entrenar.",
+    "El aprendizaje no supervisado busca encontrar patrones en datos sin etiquetar.",
+    "La validación cruzada evalúa el rendimiento de un modelo usando diferentes subconjuntos.",
+    "El sobreajuste ocurre cuando un modelo aprende detalles específicos en lugar de patrones generales."
+  ],
+  "sources": [
+    "KB: machine learning",
+    "KB: machine learning",
+    "KB: machine learning",
+    "KB: machine learning",
+    "KB: machine learning",
+    "KB: machine learning",
+    "KB: machine learning",
+    "KB: machine learning",
+    "KB: machine learning",
+    "KB: machine learning"
+  ]
+}

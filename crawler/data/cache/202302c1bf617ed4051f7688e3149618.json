@@ -1,0 +1,16 @@
+{
+  "fragments": [
+    "Python es un lenguaje de programación interpretado cuya filosofía hace hincapié en la legibilidad de su código.",
+    "Python fue creado por Guido van Rossum en 1989 y presentado públicamente en 1991.",
+    "Python utiliza indentación para delimitar bloques de código.",
+    "Es un lenguaje multipropósito que soporta orientación a objetos, programación imperativa y funcional.",
+    "Python tiene tipado dinámico y gestión automática de memoria."
+  ],
+  "sources": [
+    "Base de conocimiento",
+    "Base de conocimiento",
+    "Base de conocimiento",
+    "Base de conocimiento",
+    "Base de conocimiento"
+  ]
+}
