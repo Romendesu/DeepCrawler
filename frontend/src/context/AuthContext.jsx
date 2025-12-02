@@ -7,21 +7,31 @@ export function AuthProvider({children}) {
     const [user, setUser] = useState(null);
     const [token, setToken] = useState(null);
 
-    // Siempre que entremos, cargamos el token
+    // 1. Efecto Inicial: Cargar desde localStorage
     useEffect(() => {
         const savedToken = localStorage.getItem("token");
         const savedUser = localStorage.getItem("user");
+        
         // En caso de encontrar la información en localstorage, la añadimos
         if (savedToken) setToken(savedToken);
         if (savedUser) setUser(JSON.parse(savedUser));
     }, []);
 
+    // 2. Efecto de Sincronización: Guarda el usuario actualizado en localStorage.
+    // ESTO ES LA CLAVE para que los cambios de Configuración se guarden.
+    useEffect(() => {
+        if (user) {
+            // Este efecto se dispara cada vez que setUser actualiza el estado 'user'.
+            localStorage.setItem("user", JSON.stringify(user));
+        }
+    }, [user]); 
+
     // Al hacer login, almacenamos la informacion
     const login = (userData, tokenValue) => {
+        // setUser se encargará de guardar 'user' en localStorage gracias al useEffect anterior.
         setUser(userData);
         setToken(tokenValue);
         localStorage.setItem("token", tokenValue);
-        localStorage.setItem("user",JSON.stringify(userData));
     };
 
     // Al cerrar sesion, borramos la informacion
@@ -33,7 +43,7 @@ export function AuthProvider({children}) {
     };
 
     return (
-        <AuthContext.Provider value={{user, token, login, logout}} >
+        <AuthContext.Provider value={{user, token, login, logout, setUser, setToken}} >
             {children}
         </AuthContext.Provider>
     )

@@ -5,13 +5,26 @@
 
 
 :root {
+    /* Colores existentes */
     --grey-color: #202020;
     --background-color: #252525;
     --light-grey: #505050;
     --soft-border: #DEDEDE;
     --white: #cccccc;
+    
+    /* Fuentes existentes */
     --title-font: "Plus Jakarta Sans", sans-serif;
     --phrase-font: "Google Sans Flex", sans-serif;
+
+    /* --- Añadidas para el chat y elementos de la interfaz --- */
+    --dark-bg: var(--background-color); /* Usamos tu fondo como base */
+    --input-bg: #2d2d2d; /* Color ligeramente más oscuro para la caja de texto */
+    --user-color: #3b3b3b; /* Color de burbuja para mensajes del usuario (Azul) */
+    --text-color: var(--white); /* El color del texto principal */
+    
+    /* Añadidas para espaciado y bordes */
+    --border-radius-lg: 20px;
+    --spacing-md: 20px;
 }
 
 * {

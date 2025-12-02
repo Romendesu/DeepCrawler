@@ -80,4 +80,70 @@
   border-color: #505050;
   background-color: #505050;
 }
+.response-area {
+    width: 120%; /* Mantén el 80% del main-content */
+    max-width: 1000px; /* Opcional: Establecer un ancho máximo */
+    height: 60vh; 
+    margin: 0 auto; /* Centrar horizontalmente */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end; /* Alinear el contenido hacia abajo */
+    padding-bottom: var(--spacing-md); 
+}
 
+/* 2. Área de Mensajes Desplazable (Nuevo contenedor en Home.jsx) */
+/* CLAVE: Este div contendrá los mensajes y manejará el scroll */
+.chat-messages-scroll-wrapper {
+    flex-grow: 1; /* Ocupa el espacio restante */
+    overflow-y: auto; /* Habilita el scroll vertical cuando sea necesario */
+    padding-right: 50px; /* Espacio para el scrollbar */
+    padding-top: var(--spacing-md);
+    
+    /* Estilo del scrollbar (opcional, solo para navegadores basados en Webkit) */
+    &::-webkit-scrollbar {
+        width: 8px;
+    }
+    &::-webkit-scrollbar-thumb {
+        background-color: var(--light-grey);
+        border-radius: 4px;
+    }
+}
+
+/* 3. Contenedores de Mensajes (Alineación) */
+.message-container {
+    display: flex;
+    margin-bottom: 15px;
+    width: 100%; /* Ocupa todo el ancho para permitir la alineación */
+}
+
+/* Alineación específica para roles */
+.message-container.user {
+    justify-content: flex-end; /* Mueve el mensaje del usuario a la derecha */
+}
+.message-container.ai {
+    justify-content: flex-start; /* Mueve el mensaje de la AI a la izquierda */
+}
+
+/* 4. Contenido del Mensaje (Apariencia y Overflow) */
+.message-content {
+    /* CLAVE: Limitar el ancho y forzar el salto de línea */
+    max-width: 85%; /* Limita el mensaje para que no ocupe todo el 100% y respire */
+    word-wrap: break-word; /* Rompe palabras largas que desborden */
+    white-space: pre-wrap; /* Respeta los saltos de línea (del \n en el texto) */
+    
+    padding: 15px 20px;
+    border-radius: var(--border-radius-lg);
+    color: var(--text-color);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* 5. Estilos de Color para Roles */
+.message-container.user .message-content {
+    background-color: var(--user-color); 
+    border-bottom-right-radius: 5px; /* Pequeño ajuste visual en la esquina del usuario */
+}
+
+.message-container.ai .message-content {
+    background-color: var(--light-grey);
+    border-bottom-left-radius: 5px; /* Pequeño ajuste visual en la esquina de la AI */
+}

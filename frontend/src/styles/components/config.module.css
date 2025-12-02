@@ -1,27 +1,164 @@
+/* NOTA: Estas reglas asumen que las variables de color (var(--...)) 
+   están definidas en tu archivo global :root (ej: --background-color, --light-grey, etc.). */
+
+/* 1. Contenedor Principal (Tarjeta Central) */
 .mainContainer {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    border: solid var(--light-grey) 2px;
-    width: 700px;
-    margin: auto;
+    
+    /* Adaptación del estilo de tarjeta */
+    background-color: var(--background-color); 
+    border: solid 2px var(--light-grey);
+    
+    width: 90%; 
+    max-width: 450px; 
+    
+    margin: 40px auto; 
     border-radius: 40px;
-    padding:20px;
+    padding: 30px;
+    
+    color: var(--white); 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4); 
 }
 
+/* 2. Encabezado de la Tarjeta */
+.mainContainer h1 {
+    font-size: 2em;
+    margin-bottom: 25px;
+    font-family: var(--title-font);
+}
+
+/* 3. Contenedores de Texto para datos actuales */
+.mainContainer p {
+    margin-bottom: 5px; 
+    font-family: var(--phrase-font);
+    font-size: 1em;
+}
+
+/* 4. Contenedor de la Imagen de Perfil y Botón de Carga */
+.profilePictureWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 25px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid var(--light-grey); /* Separador visual */
+    width: 100%;
+}
+
+.profilePictureWrapper img {
+    width: 100px; 
+    height: 100px; 
+    border-radius: 50%;
+    object-fit: cover;
+    border: solid 2px var(--soft-border);
+}
+
+.defaultUserIcon {
+    width: 100px; 
+    height: 100px; 
+    border: solid 2px var(--soft-border);
+    border-radius: 50%;
+    padding: 5px; 
+    background-color: var(--light-grey);
+}
+
+.fileInput {
+    display: none; /* Oculta el input de tipo file por defecto */
+}
+
+/* Estilo del botón de carga (<label>) */
+.uploadButton {
+    background-color: transparent;
+    color: var(--soft-border);
+    border: none;
+    cursor: pointer;
+    font-size: 0.9em;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: color 0.2s ease;
+}
+
+.uploadButton:hover {
+    color: var(--white);
+}
+
+
+/* 5. Formulario de Cambio de Datos (Inputs de Edición) */
 .changeForm {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction:column;
-    gap:20px;
+    flex-direction: column;
+    gap: 15px; 
+    margin-top: 20px;
+    width: 100%; 
 }
 
-.changeForm input{
-    width: 200px;
-    height: 50px;
+.changeForm input {
+    /* Estilo de "botón" / Campo de entrada */
+    width: 80%; 
+    max-width: 300px; 
+    height: 45px;
     border-radius: 10px;
-    border: solid var(--light-grey);
-    background-color: var(--grey);
+    
+    /* Colores y bordes */
+    border: solid 1px var(--light-grey);
+    background-color: var(--grey-color); 
+    color: var(--white);
+    
+    text-align: center; 
+    cursor: text; 
+    transition: background-color 0.2s ease;
+}
+
+.changeForm input::placeholder {
+    color: var(--white);
+    opacity: 0.8;
+}
+
+.changeForm input:focus {
+    outline: none;
+    border-color: var(--user-color); 
+    background-color: var(--input-bg, #2d2d2d);
+}
+
+/* 6. Botón de Envío */
+.submitButton {
+    width: 80%;
+    max-width: 300px;
+    height: 45px;
+    border-radius: 10px;
+    border: none;
+    background-color: var(--user-color); 
+    color: var(--white);
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 30px; 
+    transition: background-color 0.2s ease;
+}
+
+.submitButton:hover:not(:disabled) {
+    background-color: #316ccb; 
+}
+
+.submitButton:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+
+/* 7. Mensajes de estado (estos deben estilizar los <p> que usas en el JSX) */
+.errorMessage {
+    color: red;
+    margin-top: 15px;
+    font-size: 0.9em;
+}
+
+.successMessage {
+    color: #4CAF50; 
+    margin-top: 15px;
+    font-size: 0.9em;
 }
